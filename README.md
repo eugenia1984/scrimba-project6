@@ -54,10 +54,6 @@ Debemos llegar a crear :
 
 ![image](https://user-images.githubusercontent.com/72580574/208121544-7ab8dfdd-a3e8-4d57-a256-d5d4d995ea25.png)
 
----
-
-## :book: Temas:
-
 
 ---
 ---
