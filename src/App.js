@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import "./jsconfig.json";
 import Confetti from "react-confetti";
-import Die from "./Die";
+import Die from "./components/die/Die";
 import "./App.css";
-import Title from "./components/Title";
-import Explanation from "./components/Explanation";
+import Title from "./components/title/Title";
+import Explanation from "./components/explanation/Explanation";
+import "./international";
+import { TEXT, BTN_TXT } from "./international";
 
 function App() {
-  const [dice, setDice] = React.useState(allNewDice());
-  const [tenzies, setTenzies] = React.useState(false);
+  const [dice, setDice] = useState(allNewDice());
+  const [tenzies, setTenzies] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const firstValue = dice[0].value;
     const allHeld = dice.every((die) => die.held);
     const allSameNumber = dice.every((die) => die.value === firstValue);
@@ -63,12 +66,11 @@ function App() {
   return (
     <main>
       {tenzies && <Confetti />}
-      <Title text="Tenzies" />
-      <Explanation text="Roll until all dice are the same. Click each die to freeze it at its
-        current value between rolls."/>
+      <Title text={TEXT.title} />
+      <Explanation text={TEXT.explanation} />
       <div className="die-container">{diceElements}</div>
       <button className="roll-dice" onClick={rollUnheldDice}>
-        {tenzies ? "Reset Game" : "Roll"}
+        {tenzies ? BTN_TXT.reset : BTN_TXT.roll}
       </button>
     </main>
   );
