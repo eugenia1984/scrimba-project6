@@ -4,6 +4,13 @@ Pueden ver toda la teoria y practica completo del curso de React : Scrimba con  
 
 ---
 
+## ¿ Qué hace ?
+
+
+**Tenzie** es un juego para niños, la idea es tener 10 números iguales, se clickea los números que se tienen iguales, se hace click en **roll** para tneer nuevos nçumeros, si hay nuevos números iguales se hacen click para dejarlos seleccionados, se vuelve a hacer click en **Roll** y así sucesivamente hasta llegar a tener todos los números iguales.
+
+---
+
 ## Tecnologías 🛠️
 
 - <img src="https://img.icons8.com/color/30/null/html-5--v1.png"/> **HTML5**
@@ -20,10 +27,13 @@ Pueden ver toda la teoria y practica completo del curso de React : Scrimba con  
 ```JavaScript
 "dependencies": {
   "react": "^18.2.0",
+  "react-confetti": "^6.1.0",
   "react-dom": "^18.2.0",
-}  
+  "react-scripts": "5.0.1"
+}, 
 ```
 
+- [**react-confetti**](https://www.npmjs.com/package/react-confetti)
 
 ---
 
