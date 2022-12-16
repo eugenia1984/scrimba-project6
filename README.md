@@ -1,4 +1,4 @@
-# :star: Sextoo proyecto del curso de Scrimba con React
+# :star: Sexto proyecto del curso de Scrimba con React
 
 Pueden ver toda la teoria y practica completo del curso de React : Scrimba con  Bob Ziroll, haciendo [click aca](https://github.com/eugenia1984/react-varios-cursos)
 
