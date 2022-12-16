@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./jsconfig.json";
 import Confetti from "react-confetti";
+import  useWindowSize  from "./hook/useWindowSize.jsx";
 import Die from "./components/die/Die";
 import "./App.css";
 import Title from "./components/title/Title";
@@ -9,6 +10,9 @@ import "./international";
 import { TEXT, BTN_TXT } from "./international";
 
 function App() {
+  //const { width, height} = useWindowSize;
+  const size = useWindowSize();
+
   const [dice, setDice] = useState(allNewDice());
   const [tenzies, setTenzies] = useState(false);
 
@@ -65,7 +69,7 @@ function App() {
 
   return (
     <main>
-      {tenzies && <Confetti />}
+      {tenzies && <Confetti width={size.width} height={size.height} />}
       <Title text={TEXT.title} />
       <Explanation text={TEXT.explanation} />
       <div className="die-container">{diceElements}</div>
