@@ -2,6 +2,8 @@ import React from "react";
 import Confetti from "react-confetti";
 import Die from "./Die";
 import "./App.css";
+import Title from "./components/Title";
+import Explanation from "./components/Explanation";
 
 function App() {
   const [dice, setDice] = React.useState(allNewDice());
@@ -61,11 +63,9 @@ function App() {
   return (
     <main>
       {tenzies && <Confetti />}
-      <h1>Tenzies</h1>
-      <p>
-        Roll until all dice are the same. Click each die to freeze it at its
-        current value between rolls.
-      </p>
+      <Title text="Tenzies" />
+      <Explanation text="Roll until all dice are the same. Click each die to freeze it at its
+        current value between rolls."/>
       <div className="die-container">{diceElements}</div>
       <button className="roll-dice" onClick={rollUnheldDice}>
         {tenzies ? "Reset Game" : "Roll"}
