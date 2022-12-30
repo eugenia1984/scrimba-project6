@@ -44,7 +44,7 @@ Pueden ver toda la teoria y practica completo del curso de React : Scrimba con  
 ## Demo 📦
 
 Si quieres ver cómo fue este proyecto, puedes hacerlo desde:
-:arrow_right: [aca](https://scrimba-proyect6.netlify.app)
+:arrow_right: [aca](https://scrimba-proyect6.netlify.app/)
 
 ---
 
