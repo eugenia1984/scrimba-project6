@@ -7,7 +7,7 @@ Pueden ver toda la teoria y practica completo del curso de React : Scrimba con  
 ## ¿ Qué hace ?
 
 
-**Tenzie** es un juego para niños, la idea es tener 10 números iguales, se clickea los números que se tienen iguales, se hace click en **Roll** para tneer nuevos nçumeros, si hay nuevos números iguales se hacen click para dejarlos seleccionados, se vuelve a hacer click en **Roll** y así sucesivamente hasta llegar a tener todos los números iguales.
+**Tenzie** es un juego para niños, la idea es tener 10 números iguales, se clickea los números que se tienen iguales(así quedan seleccionados), se hace click en **Roll** para tener nuevos nímeros, si hay nuevos números iguales se hacen click para dejarlos seleccionados, se vuelve a hacer click en **Roll** y así sucesivamente hasta llegar a tener todos los números iguales.
 
 ![image](https://user-images.githubusercontent.com/72580574/208124333-155df1dd-8a33-496a-b08e-9e8d08d9e2a5.png)
 
